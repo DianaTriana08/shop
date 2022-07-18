@@ -1,0 +1,127 @@
+
+.containerOne{
+    background-image: url('../../assets/img/background.png'); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgLogo{
+    width: 8%;
+    margin-left: 30px;
+}
+.language{
+    float: right;
+    width: 5%;
+    position: relative;
+    top: 25px;
+    right: 70px;
+}
+.imgContainer{
+    background-image: url('../../assets/img/backRose.png'); 
+    height: 385px;
+    width: 8%;
+    float: right;
+}
+.carStyle{
+    width: 150%;
+    margin: 25px -80px;
+    border-color: #502c1c;
+    font-family: 'Poppins-Bold';
+    color: #502c1c;
+    font-size: 12px;
+    background-color: transparent;
+    border-radius: 22px;
+    border: 1.8px solid #502c1c;
+    height: 30px;
+    padding: 0px;
+}
+.elipseStyle{
+    width: 70%;
+    position: relative;
+    top: 150px;
+    left: 20px;
+}
+.textContent{
+    font-family: Poppins-ExtraBold;
+    font-size: 15px;
+    line-height: 1rem;
+    text-align: center;
+    color: #502c1d;
+    position: relative;
+    top: 160px;
+    left: -48px;
+}
+.content{
+    background-color: #ede0d7;
+    background-image: url('../../assets/img/layer.png'); 
+    background-repeat: no-repeat;
+    height: 590px;
+}
+.footer{
+    background-color: #4e2b1b;
+    height: 200px;
+}
+.socialMedia{
+    width: 4%;
+    position: relative;
+    top: -80px;
+    left: 20px;
+}
+.coffeBag {
+    width: 23%;
+    position: relative;
+    top: -290px;
+    left: 300px;
+}
+.premium{
+    width: 5%;
+    position: absolute;
+    left: 540px;
+}
+.textCoffe{
+    font-family: Poppins-Bold;
+    color: #502c1d;
+    font-size: 50px;
+    width: 63%;
+    position: relative;
+    left: 245px;
+    top: -220px;
+    line-height: 3.2rem;
+}
+.contentInfo{
+    font-family: Poppins-Regular;
+    width: 52%;
+    position: relative;
+    top: -205px;
+    left: 250px;
+    font-size: 14px;
+    color: #502c1d;
+}
+.grainCoffe{
+    width: 90%;
+    float: left;
+    position: relative;
+    top: 240px;
+    left: -160px;
+}
+.logoFooter{
+    float: right;
+    width: 55%;
+    margin-top: 30px;
+}
+.textFooter{
+    font-family: 'Poppins-light';
+    color: #ffffff9c;
+    font-size: 10px;
+    margin: 75px 0px;
+}
+.textFollow{
+    font-family: 'Poppins-light';
+    color: #ffffff9c;
+    font-size: 10px;
+    margin: 75px 0px;
+    float: right;
+}  
+.network{
+    width: 25%;
+    margin: 65px 0px;
+}

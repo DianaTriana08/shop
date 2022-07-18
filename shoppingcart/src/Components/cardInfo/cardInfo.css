@@ -1,0 +1,85 @@
+
+.containerCard{
+    width: 25%;
+    border-radius: 11px !important;
+    position: absolute !important;
+    right: 26%;
+    top: 65px;
+}
+.coffeText{
+    font-family: 'Poppins-Bold';
+    font-size: 13px;
+    margin: 7px;
+}
+.titleText{
+    font-family: 'Poppins-ExtraBold';
+    font-size: 40px;
+    line-height: 2.3rem;
+    margin: 7px;
+    color: #502c1d;
+}
+.textCard {
+    font-family: 'Poppins-Bold';
+    font-size: 10px;
+    margin: 9px;
+}
+.infoCard{
+    font-family: 'Poppins-regular';
+    font-size: 10px;
+}
+.infoProduct{
+    font-family: 'Poppins-regular';
+    font-size: 10px;
+    margin-left: 10px;
+}
+.btnCard{
+    background-color: #1a0d52;
+    color: white;
+    font-family: 'Poppins-Bold';
+    border-radius: 20px;
+    border: none;
+    font-size: 10px;
+    width: 45%;
+    height: 35px;
+    margin: 10px 7px;
+}
+.selectCard {
+    font-family: 'Poppins-regular';
+    font-size: 10px;
+    margin: 0px 9px;
+    padding: 6px;
+    width: 85%;
+}
+.countCard {
+    border-top: 2px solid #000;
+    border-bottom: 1.5px solid #000;
+    width: 85%;
+    margin: 15px 11px !important;
+    border-color: #b4b4b4;
+    font-family: 'Poppins-ExtraBold';
+}
+.borderCard{
+    border-right: 2px solid #000;
+    border-color: #b4b4b4;
+    text-align: center;
+    padding: 8px;
+}
+.borderBott{
+    border-bottom: 4px solid #00dfdc;
+    width: 43%;
+    margin: 10px;
+}
+.mediumCard{
+    width: 25%;
+    margin: 8px -9px;
+}
+.restIcon{
+    float: left;
+    margin-left: -12px;
+    margin-top: 10px;
+}
+.sumIcon{
+    float: right;
+    margin-left: -9px;
+    margin-top: 2px;
+}
