@@ -19,10 +19,8 @@ export default function CardProduct() {
      
     function addCar(e) {
         setbagCoffe({ ...bagCoffe, [e.target.name]: e.target.value })
-        console.log(e.target.name, e.target.value)
     }
     function addCount(e) {
-        console.log(products)
         if (bagCoffe.id === "") {
             alert('debe seleccionar un producto')
             return

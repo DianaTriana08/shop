@@ -1,6 +1,8 @@
 import { useState } from "react";
-import React, { Card, Container } from "react-bootstrap";
-import Car from '../../assets/img/car.png';
+import React, { Card, Container, Row, Col } from "react-bootstrap";
+import Coffe from "../../assets/img/coffeBag.png";
+import Car from "../../assets/img/car.png";
+import "./cardCar.css";
 
 const CardCar = (props) => {
     const [product, setProduct] = useState([])
@@ -10,7 +12,6 @@ const CardCar = (props) => {
         let value = localStorage.length
         for (let i = 1; i <= value; i++) {
             let indo = JSON.parse(localStorage.getItem('car' + i))
-            console.log(indo)
             if (indo != null) {
                 setProduct(product => [...product, indo])
             }
@@ -20,25 +21,25 @@ const CardCar = (props) => {
     return (
         <>
             <button className="carStyle" onClick={() => { getItem() }}>CARRITO
-                <img alt='carrito' src={Car} />
+                <img src={Car}/>
             </button>
             {
                 show &&
                 <Container>
-                    <Card style={{ width: '300px' }}>
+                    <Card className="carProducts">
                         {
                             product.length !== 0 &&
                             product.map((data, i) => {
                                 return (
-                                    <div key={i}>
-                                        <img alt='store' src={Car} height='50' width='50' />
-                                        <p>
-                                            Bag Size: {data.id}
-                                        </p>
-                                        <p>
-                                            Count: {data.count}
-                                        </p>
-                                    </div>
+                                    <Row key={i} className="rowCar">
+                                      <Col className="col-lg-4">
+                                        <img className="bagCar" alt='store' src={Coffe}/>
+                                      </Col>
+                                      <Col className="col-lg-8 productsCoffe">
+                                         <p>Bag Size: {data.id}</p>
+                                         <p>Amount: {data.count}</p>
+                                      </Col>
+                                    </Row>
                                 )
                             })
                         }
